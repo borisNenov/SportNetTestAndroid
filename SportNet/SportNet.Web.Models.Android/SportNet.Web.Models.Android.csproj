@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A729C348-3CF2-45F2-B527-F3C20E5FFE52}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SportNet.Web.Models.Android</RootNamespace>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AssemblyName>SportNet.Web.Models.Android</AssemblyName>
+    <TargetFrameworkVersion>v4.0.3</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;__MOBILE__;__ANDROID__;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <DefineConstants>__MOBILE__;__ANDROID__;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="AddContentModel.cs" />
+    <Compile Include="CategoriesMenuModel.cs" />
+    <Compile Include="CategoryDTO.cs" />
+    <Compile Include="ChangePasswordModel.cs" />
+    <Compile Include="FacebookProfile.cs" />
+    <Compile Include="GalleryArticleModel.cs" />
+    <Compile Include="GalleryItemModel.cs" />
+    <Compile Include="GoogleClient.cs" />
+    <Compile Include="LiveScoreCategoryModel.cs" />
+    <Compile Include="LiveScorePageModel.cs" />
+    <Compile Include="LiveScoreSportModel.cs" />
+    <Compile Include="LiveScoreViewModel.cs" />
+    <Compile Include="LiveTvIframeModel.cs" />
+    <Compile Include="LiveTVModel.cs" />
+    <Compile Include="LoginModel.cs" />
+    <Compile Include="MatchModel.cs" />
+    <Compile Include="MatchResultModel.cs" />
+    <Compile Include="NewsArticleModel.cs" />
+    <Compile Include="NewsModel.cs" />
+    <Compile Include="NewsPageModel.cs" />
+    <Compile Include="ProfileUpdateModel.cs" />
+    <Compile Include="RegisterModel.cs" />
+    <Compile Include="SearchModel.cs" />
+    <Compile Include="SocialMetricsModel.cs" />
+    <Compile Include="SourceWebSiteDto.cs" />
+    <Compile Include="TournamentModel.cs" />
+    <Compile Include="VideoArticleModel.cs" />
+    <Compile Include="VideoModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AdModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="packages.config" />
+    <None Include="SportNet.Web.Models.csproj" />
+    <None Include="bin\Debug\SportNet.Web.Models.dll" />
+    <None Include="bin\Debug\SportNet.Web.Models.dll.mdb" />
+    <None Include="bin\Release\SportNet.Web.Models.dll" />
+    <None Include="bin\Release\SportNet.Web.Models.pdb" />
+    <None Include="obj\Debug\SportNet.Web.Models.csproj.FilesWrittenAbsolute.txt" />
+    <None Include="obj\Debug\SportNet.Web.Models.dll" />
+    <None Include="obj\Debug\SportNet.Web.Models.dll.mdb" />
+    <None Include="obj\Release\SportNet.Web.Models.csproj.FileListAbsolute.txt" />
+    <None Include="obj\Release\SportNet.Web.Models.dll" />
+    <None Include="obj\Release\SportNet.Web.Models.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\Strings.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+</Project>

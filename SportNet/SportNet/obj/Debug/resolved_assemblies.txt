@@ -1,0 +1,6 @@
+C:\Users\Boris\Documents\Projects\SportNet\SportNet\bin\Debug\SportNet.dll
+C:\Users\Boris\Desktop\Facebook.dll
+C:\Users\Boris\Desktop\googleplayservices-13.0\lib\android\GooglePlayServicesLib.dll
+C:\Users\Boris\Desktop\json.net-4.5.11\lib\android\Newtonsoft.Json.dll
+C:\Users\Boris\Documents\Projects\SportNet\SportNet.Web.Models.Android\bin\Debug\SportNet.Web.Models.Android.dll
+C:\Users\Boris\Documents\Projects\SportNet\MonoDroid.UrlImageViewHelper-master\bin\Debug\UrlImageViewHelper.dll

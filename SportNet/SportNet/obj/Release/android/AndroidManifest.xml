@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.sportnet.sportnet">
+  <uses-sdk android:minSdkVersion="14" />
+  <application android:label="SportNet" android:icon="@drawable/sportnet" android:theme="@android:style/Theme.Black.NoTitleBar" android:name="sportnet.Globals">
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+    <activity android:label="SportNet" android:screenOrientation="portrait" android:name="sportnet.MainActivity" />
+    <activity android:noHistory="true" android:screenOrientation="portrait" android:theme="@style/Theme.Splash" android:name="sportnet.SplashActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="SignUpActivity" android:screenOrientation="portrait" android:name="sportnet.SignUpActivity" />
+    <activity android:label="LoginActivity" android:screenOrientation="portrait" android:name="sportnet.LoginActivity" />
+    <activity android:label="MainTabActivity" android:screenOrientation="portrait" android:name="sportnet.MainTabActivity" />
+    <activity android:label="NewsActivity" android:screenOrientation="portrait" android:name="sportnet.NewsActivity" />
+    <activity android:label="PicturesActivity" android:screenOrientation="portrait" android:name="sportnet.PicturesActivity" />
+    <activity android:label="VideoActivity" android:screenOrientation="portrait" android:name="sportnet.VideoActivity" />
+    <activity android:label="LiveScoreTabActivity" android:name="sportnet.LiveScoreTabActivity" />
+    <activity android:label="NewsDetailActivity" android:screenOrientation="portrait" android:name="sportnet.NewsDetailActivity" />
+    <activity android:label="TodayLiveScoreActivity" android:screenOrientation="portrait" android:name="sportnet.TodayLiveScoreActivity" />
+    <activity android:label="VideoDetailActivity" android:screenOrientation="portrait" android:name="sportnet.VideoDetailActivity" />
+    <activity android:label="ForgotPassActivity" android:screenOrientation="portrait" android:name="sportnet.ForgotPassActivity" />
+    <activity android:label="CustomizingSelectionActivity" android:screenOrientation="portrait" android:name="sportnet.CustomizingSelectionActivity" />
+    <activity android:label="CustomizingSelectionCategoryActivity" android:screenOrientation="portrait" android:name="sportnet.CustomizingSelectionCategoryActivity" />
+    <activity android:label="GalleryActivity" android:screenOrientation="portrait" android:name="sportnet.GalleryActivity" />
+    <activity android:label="PictureActivity" android:name="sportnet.PictureActivity" />
+    <activity android:label="AccountSettingsActivity" android:screenOrientation="portrait" android:name="sportnet.AccountSettingsActivity" />
+    <activity android:label="EditProfileActivity" android:screenOrientation="portrait" android:name="sportnet.EditProfileActivity" />
+    <activity android:label="ChangePasswordActivity" android:screenOrientation="portrait" android:name="sportnet.ChangePasswordActivity" />
+    <activity android:label="NotificationsActivity" android:screenOrientation="portrait" android:name="sportnet.NotificationsActivity" />
+    <activity android:label="RemoveAccountActivity" android:screenOrientation="portrait" android:name="sportnet.RemoveAccountActivity" />
+    <activity android:label="AboutThisAppActivity" android:screenOrientation="portrait" android:name="sportnet.AboutThisAppActivity" />
+    <activity android:label="UserCategoryActivity" android:screenOrientation="portrait" android:name="sportnet.UserCategoryActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="NewsGroupActivity" android:screenOrientation="portrait" android:name="sportnet.NewsGroupActivity" />
+    <activity android:label="PictureGroupActivity" android:screenOrientation="portrait" android:name="sportnet.PictureGroupActivity" />
+    <activity android:label="FBWebViewAuthActivity" android:name="sportnet.FBWebViewAuthActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.sportnet.sportnet.mono.MonoRuntimeProvider.__mono_init__" />
+  </application>
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.STATUS_BAR" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+  <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+</manifest>

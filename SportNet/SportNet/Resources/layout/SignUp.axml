@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <include
+        android:id="@+id/include"
+        layout="@layout/ActionBarLayout" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#1a1a1a">
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativeLayout1">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/profilePic"
+                android:layout_marginTop="19.5dp"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/profilebig"
+                android:fitsSystemWindows="true" />
+            <Button
+                android:id="@+id/Chose"
+                android:layout_toRightOf="@id/profilePic"
+                android:layout_width="150dp"
+                android:layout_height="31dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="45.0dp"
+                android:text="Choose..."
+                android:textColor="#000000"
+                android:textSize="13dp"
+                android:background="@drawable/choose" />
+        </RelativeLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/FirstName"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="15.0dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textColor="#000000"
+                android:textSize="13dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:hint="First Name"
+                android:background="@drawable/textInputBackground" />
+            <EditText
+                android:id="@+id/LastName"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="5.0dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textColor="#000000"
+                android:textSize="13dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:hint="Last Name"
+                android:background="@drawable/textInputBackground" />
+            <EditText
+                android:id="@+id/Email"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="5.0dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textColor="#000000"
+                android:textSize="13dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:hint="Email"
+                android:background="@drawable/textInputBackground" />
+            <EditText
+                android:id="@+id/Password"
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="5.0dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textColor="#000000"
+                android:textSize="13dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:hint="Password"
+                android:background="@drawable/textInputBackground" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/createAccButton"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="Create Account"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="12.0dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:background="@drawable/buttonlong" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="15.0dp"
+            android:text="Or Sign Up Via"
+            android:textColor="#666666"
+            android:textSize="13dp" />
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical|center_horizontal">
+            <ImageButton
+                android:id="@+id/signUpViaFacebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/FacebookGrey" />
+            <ImageButton
+                android:id="@+id/signUpViaTwitter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/signUpViaFacebook"
+                android:background="@drawable/TwitterGrey" />
+            <ImageButton
+                android:id="@+id/signUpViaGoogle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/signUpViaTwitter"
+                android:background="@drawable/GooglePlusGrey" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

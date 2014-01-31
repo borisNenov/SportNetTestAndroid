@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+    <LinearLayout
+        android:id="@+id/left_menu"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <include
+            layout="@layout/left_menu" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/app"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1a1a1a"
+        android:gravity="bottom"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/include"
+            layout="@layout/ActionBarLayout" />
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10px">
+            <RelativeLayout
+                android:id="@+id/userContainer"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <RelativeLayout
+                    android:id="@+id/mainPicturesContainer"
+                    android:layout_width="fill_parent"
+                    android:layout_height="265dp">
+                    <ListView
+                        android:id="@+id/UserNewsList"
+                        android:layout_width="fill_parent"
+                        android:layout_height="265dp"
+                        android:background="#1a1a1a"
+                        android:divider="@null"
+                        android:scrollbars="none"
+                        android:listSelector="@android:color/transparent"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="8dp" />
+                </RelativeLayout>
+                <ListView
+                    android:layout_below="@+id/mainPicturesContainer"
+                    android:id="@+id/UserCustomizingCategory"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:cacheColorHint="#1a1a1a"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginRight="23dp"
+                    android:divider="@null"
+                    android:scrollbars="none"
+                    android:layout_marginBottom="10dp" />
+                <RelativeLayout
+                    android:id="@+id/returnMenu"
+                    android:layout_width="150dp"
+                    android:layout_height="fill_parent" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

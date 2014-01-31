@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{840E13A2-5257-4743-AF05-27DED2C2DEC7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SportNet.Web.Models</RootNamespace>
+    <AssemblyName>SportNet.Web.Models</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddContentModel.cs" />
+    <Compile Include="CategoriesMenuModel.cs" />
+    <Compile Include="CategoryDTO.cs" />
+    <Compile Include="ChangePasswordModel.cs" />
+    <Compile Include="GalleryArticleModel.cs" />
+    <Compile Include="GalleryItemModel.cs" />
+    <Compile Include="LiveTvIframeModel.cs" />
+    <Compile Include="LiveTVModel.cs" />
+    <Compile Include="LoginModel.cs" />
+    <Compile Include="NewsArticleModel.cs" />
+    <Compile Include="NewsModel.cs" />
+    <Compile Include="NewsPageModel.cs" />
+    <Compile Include="ProfileUpdateModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegisterModel.cs" />
+    <Compile Include="SearchModel.cs" />
+    <Compile Include="SocialMetricsModel.cs" />
+    <Compile Include="SourceWebSiteDto.cs" />
+    <Compile Include="VideoArticleModel.cs" />
+    <Compile Include="VideoModel.cs" />
+    <Compile Include="LiveScorePageModel.cs" />
+    <Compile Include="LiveScoreSportModel.cs" />
+    <Compile Include="LiveScoreViewModel.cs" />
+    <Compile Include="MatchModel.cs" />
+    <Compile Include="MatchResultModel.cs" />
+    <Compile Include="TournamentModel.cs" />
+    <Compile Include="LiveScoreCategoryModel.cs" />
+    <Compile Include="FacebookProfile.cs" />
+    <Compile Include="GoogleClient.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

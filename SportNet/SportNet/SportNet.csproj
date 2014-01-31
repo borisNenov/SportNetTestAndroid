@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B5B73A32-C53B-4CD9-AA14-2FECB87E97FD}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SportNet</RootNamespace>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AssemblyName>SportNet</AssemblyName>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <TargetFrameworkVersion>v4.0.3</TargetFrameworkVersion>
+    <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
+    <JavaMaximumHeapSize>1G</JavaMaximumHeapSize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <ConsolePause>false</ConsolePause>
+    <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+    <Reference Include="Mono.Android.Support.v4" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\..\Desktop\json.net-4.5.11\lib\android\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook">
+      <HintPath>..\..\..\..\Desktop\Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="GooglePlayServicesLib">
+      <HintPath>..\..\..\..\Desktop\googleplayservices-13.0\lib\android\GooglePlayServicesLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainActivity.cs" />
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SplashActivity.cs" />
+    <Compile Include="SignUpActivity.cs" />
+    <Compile Include="LoginActivity.cs" />
+    <Compile Include="MainTabActivity.cs" />
+    <Compile Include="NewsActivity.cs" />
+    <Compile Include="PicturesActivity.cs" />
+    <Compile Include="VideoActivity.cs" />
+    <Compile Include="LiveScoreTabActivity.cs" />
+    <Compile Include="NewsScreenAdapter.cs" />
+    <Compile Include="NewsDetailActivity.cs" />
+    <Compile Include="TodayLiveScoreActivity.cs" />
+    <Compile Include="TodayLiveScoreAdapter.cs" />
+    <Compile Include="VideoAdapter.cs" />
+    <Compile Include="VideoDetailActivity.cs" />
+    <Compile Include="MenuListAdapter.cs" />
+    <Compile Include="ForgotPassActivity.cs" />
+    <Compile Include="CustomizingSelectionActivity.cs" />
+    <Compile Include="SelectionAdapter.cs" />
+    <Compile Include="CustomizingSelectionCategoryActivity.cs" />
+    <Compile Include="CustomizingSelectionCategoryAdapter.cs" />
+    <Compile Include="PicturesAdapter.cs" />
+    <Compile Include="GalleryActivity.cs" />
+    <Compile Include="GalleryAdapter.cs" />
+    <Compile Include="PictureActivity.cs" />
+    <Compile Include="PictureAdapter.cs" />
+    <Compile Include="HorizontalPager.cs" />
+    <Compile Include="TouchImageView.cs" />
+    <Compile Include="MainMenuListAdapter.cs" />
+    <Compile Include="AccountSettingsActivity.cs" />
+    <Compile Include="EditProfileActivity.cs" />
+    <Compile Include="ChangePasswordActivity.cs" />
+    <Compile Include="NotificationsActivity.cs" />
+    <Compile Include="RemoveAccountActivity.cs" />
+    <Compile Include="AboutThisAppActivity.cs" />
+    <Compile Include="ImageAdapter.cs" />
+    <Compile Include="ImageTextAdapter.cs" />
+    <Compile Include="UserCategoryActivity.cs" />
+    <Compile Include="ImageViewExt.cs" />
+    <Compile Include="ScaleImageView.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="NewsGroupActivity.cs" />
+    <Compile Include="PictureGroupActivity.cs" />
+    <Compile Include="RestRequest.cs" />
+    <Compile Include="RequestConfig.cs" />
+    <Compile Include="ImageLoader.cs" />
+    <Compile Include="FBWebViewAuthActivity.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+    <None Include="Properties\AndroidManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Main.axml" />
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\values\Style.xml" />
+    <AndroidResource Include="Resources\layout\SignUp.axml" />
+    <AndroidResource Include="Resources\layout\Login.axml" />
+    <AndroidResource Include="Resources\layout\MainTab.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\livescore.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\news.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\pictures.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\video.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\livescoreActive.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\newsActive.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\picturesActive.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\videoActive.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\profile.png" />
+    <AndroidResource Include="Resources\layout\LiveScoreTab.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\yesterday.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\yesterdayActive.png" />
+    <AndroidResource Include="Resources\drawable\pictures_state.xml" />
+    <AndroidResource Include="Resources\drawable\video_state.xml" />
+    <AndroidResource Include="Resources\drawable\livescore_state.xml" />
+    <AndroidResource Include="Resources\drawable\news_state.xml" />
+    <AndroidResource Include="Resources\drawable\yesterday_state.xml" />
+    <AndroidResource Include="Resources\layout\NewsScreen.axml" />
+    <AndroidResource Include="Resources\layout\CustomView.axml" />
+    <AndroidResource Include="Resources\layout\MainCustomView.axml" />
+    <AndroidResource Include="Resources\layout\TodayLiveScore.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\indicator.png" />
+    <AndroidResource Include="Resources\layout\LiveScoreCustomView.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\footballIcon.png" />
+    <AndroidResource Include="Resources\layout\Video.axml" />
+    <AndroidResource Include="Resources\layout\VideoCustomView.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\messibarcelona.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\lewandovski.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\play.png" />
+    <AndroidResource Include="Resources\layout\VideoDetail.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\dropDown.png" />
+    <AndroidResource Include="Resources\layout\MenuCustomView.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\checkred.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\lineSeparator.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\wall.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\loginToSportNet.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\createAnAcc.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\profilebig.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\choose.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\FacebookGrey.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\GooglePlusGrey.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\TwitterGrey.png" />
+    <AndroidResource Include="Resources\layout\ForgotPass.axml" />
+    <AndroidResource Include="Resources\layout\CustomizingSelction.axml" />
+    <AndroidResource Include="Resources\layout\CustomizingSelectionCell.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\FootballSelection.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\plus.png" />
+    <AndroidResource Include="Resources\drawable\grid_state.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\check.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\blackOverlay.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\redOverlay.png" />
+    <AndroidResource Include="Resources\layout\CustomizingSelectionCategory.axml" />
+    <AndroidResource Include="Resources\layout\CustomizingSelectionCategoryCell.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\arrow.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\lineDark.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\lineLight.png" />
+    <AndroidResource Include="Resources\layout\NewsDetail.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\comment.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\facebookLike.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\gPlusAdd.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\email.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\twitterTweet.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\baloon.png" />
+    <AndroidResource Include="Resources\layout\Pictures.axml" />
+    <AndroidResource Include="Resources\layout\PicturesCustomView.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\photoSmall.png" />
+    <AndroidResource Include="Resources\layout\Gallery.axml" />
+    <AndroidResource Include="Resources\layout\GalleryCustomView.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\photo.png" />
+    <AndroidResource Include="Resources\drawable\gridview_highlight_selector.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\redFrame.png" />
+    <AndroidResource Include="Resources\layout\Picture.axml" />
+    <AndroidResource Include="Resources\layout\PictureCustomView.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\beerbottle.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\logoSportNet.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\actionBar.png" />
+    <AndroidResource Include="Resources\layout\ActionBarLayout.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\actionBarDivider.png" />
+    <AndroidResource Include="Resources\layout\MainMenu.axml" />
+    <AndroidResource Include="Resources\layout\left_menu.axml" />
+    <AndroidResource Include="Resources\layout\MainMenuCustomView.axml" />
+    <AndroidResource Include="Resources\layout\AccountSettings.axml" />
+    <AndroidResource Include="Resources\layout\EditProfile.axml" />
+    <AndroidResource Include="Resources\layout\ChangePassword.axml" />
+    <AndroidResource Include="Resources\layout\Notifications.axml" />
+    <AndroidResource Include="Resources\layout\RemoveAccount.axml" />
+    <AndroidResource Include="Resources\layout\AboutThisApp.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\bgr.png" />
+    <AndroidResource Include="Resources\layout\left_menu_Unsigned.axml" />
+    <AndroidResource Include="Resources\layout\pictureBlock.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\plusWhite.png" />
+    <AndroidResource Include="Resources\layout\PicturesMainCustomView.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\Messi.png" />
+    <AndroidResource Include="Resources\layout\ImageTextView.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\activeDot.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\normalDot.png" />
+    <AndroidResource Include="Resources\layout\MainPicturesCustomView.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\photoBig.png" />
+    <AndroidResource Include="Resources\layout\UserCategory.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\textInputBackground.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\SportNetNoPic.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\SportNetNoPicBig.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\back.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\menu.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\buttonlongwhite.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\buttonlong.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\splashSmall.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\backSmall.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\menuSmall.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\SportNet.png" />
+    <AndroidResource Include="Resources\drawable-ldpi\SportNet.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\SportNet.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\SportNet.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Resources\drawable-mdpi\" />
+    <Folder Include="Resources\drawable-hdpi\" />
+    <Folder Include="Resources\drawable-xhdpi\" />
+    <Folder Include="Resources\drawable-ldpi\" />
+    <Folder Include="Resources\color\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SportNet.Web.Models.Android\SportNet.Web.Models.Android.csproj">
+      <Project>{A729C348-3CF2-45F2-B527-F3C20E5FFE52}</Project>
+      <Name>SportNet.Web.Models.Android</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MonoDroid.UrlImageViewHelper-master\MonoDroid.UrlImageViewHelper.csproj">
+      <Project>{57444E6A-23D9-443A-BA83-040CB9561E66}</Project>
+      <Name>MonoDroid.UrlImageViewHelper</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/CustomTitleStyle"
+    android:id="@+id/ActionBarSportNet"
+    android:background="#000000">
+    <Button
+        android:id="@+id/ActionBarBack"
+        android:layout_width="45dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="5dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/backSmall" />
+    <ImageButton
+        android:id="@+id/ActionBarMenu"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="5dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/menuSmall" />
+    <TextView
+        android:id="@+id/ActionBarTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:text="SportNet"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/ActionBarLogo"
+        android:layout_width="215px"
+        android:layout_height="45px"
+        android:gravity="center"
+        android:src="@drawable/logoSportNet"
+        android:layout_centerInParent="true" />
+    <ImageView
+        android:id="@+id/Divider"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/actionBarDivider" />
+</RelativeLayout>

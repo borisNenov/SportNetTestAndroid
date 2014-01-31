@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/CustomizingSelection"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <include
+        android:id="@+id/include"
+        layout="@layout/ActionBarLayout" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#1a1a1a">
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#1a1a1a">
+            <LinearLayout
+                android:id="@+id/titleContainer"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#1a1a1a"
+                android:layout_marginRight="50dip">
+                <TextView
+                    android:id="@+id/GalleryHeading"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:text="Mata, Torres and Azpilicueta are celebrating after Spain beat Italy on penalties"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:id="@+id/Provider"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FF0000"
+                    android:text="The Sun"
+                    android:textSize="14dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp" />
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="50dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="#1a1a1a">
+                <ImageView
+                    android:id="@+id/Photo"
+                    android:layout_width="40dp"
+                    android:layout_height="40dip"
+                    android:layout_marginTop="13dp"
+                    android:src="@drawable/photo"
+                    android:layout_marginRight="10dp" />
+                <TextView
+                    android:id="@+id/NumberOfPictures"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:layout_marginRight="10dp"
+                    android:text="18"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12dip"
+                    android:gravity="center"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <GridView
+                android:id="@+id/GalleryGridview"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="2dp"
+                android:columnWidth="70dp"
+                android:numColumns="auto_fit"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="10dp"
+                android:gravity="center"
+                android:background="#1a1a1a"
+                android:scrollbars="none"
+                android:listSelector="#00000000"
+                android:paddingBottom="20dp" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

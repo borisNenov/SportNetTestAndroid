@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportNet", "SportNet\SportNet.csproj", "{B5B73A32-C53B-4CD9-AA14-2FECB87E97FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportNet.Web.Models.Android", "SportNet.Web.Models.Android\SportNet.Web.Models.Android.csproj", "{A729C348-3CF2-45F2-B527-F3C20E5FFE52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoDroid.UrlImageViewHelper", "MonoDroid.UrlImageViewHelper-master\MonoDroid.UrlImageViewHelper.csproj", "{57444E6A-23D9-443A-BA83-040CB9561E66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57444E6A-23D9-443A-BA83-040CB9561E66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57444E6A-23D9-443A-BA83-040CB9561E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57444E6A-23D9-443A-BA83-040CB9561E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57444E6A-23D9-443A-BA83-040CB9561E66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A729C348-3CF2-45F2-B527-F3C20E5FFE52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A729C348-3CF2-45F2-B527-F3C20E5FFE52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A729C348-3CF2-45F2-B527-F3C20E5FFE52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A729C348-3CF2-45F2-B527-F3C20E5FFE52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5B73A32-C53B-4CD9-AA14-2FECB87E97FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5B73A32-C53B-4CD9-AA14-2FECB87E97FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5B73A32-C53B-4CD9-AA14-2FECB87E97FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5B73A32-C53B-4CD9-AA14-2FECB87E97FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = SportNet\SportNet.csproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <include
+        android:id="@+id/include"
+        layout="@layout/ActionBarLayout" />
+    <LinearLayout
+        android:id="@+id/Background"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:text="Version 1.0"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:textColor="#FFFFFF"
+            android:gravity="center" />
+        <TextView
+            android:text="Sport.net is your personal sport site and the most popular way to catch up on the sport news you care about, discover amazing things from around the world."
+            android:textSize="12dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:textColor="#666666"
+            android:id="@+id/MakeProfilePublic"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp" />
+        <TextView
+            android:text="The site allows you to customise your reading experience, share stories to your favorite social networks (Twitter, Facebook, Google+, and more), and easily discover relevant, compelling sport content. "
+            android:textSize="12dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:textColor="#666666"
+            android:id="@+id/MakeProfilePublic"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp" />
+        <TextView
+            android:text="Follow Us"
+            android:textSize="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textColor="#FFFFFF"
+            android:gravity="center" />
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal">
+            <ImageButton
+                android:id="@+id/followFacebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/FacebookGrey" />
+            <ImageButton
+                android:id="@+id/followTwitter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/followFacebook"
+                android:background="@drawable/TwitterGrey" />
+            <ImageButton
+                android:id="@+id/followGoogle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/followTwitter"
+                android:background="@drawable/GooglePlusGrey" />
+        </RelativeLayout>
+        <Button
+            android:id="@+id/WriteAppReview"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:text="Write App Store Review"
+            android:textSize="14dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/buttonlongwhite" />
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal">
+            <TextView
+                android:id="@+id/readOur"
+                android:text="Read our "
+                android:textSize="11dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="22dp"
+                android:textColor="#666666" />
+            <Button
+                android:background="@android:color/transparent"
+                android:id="@+id/TermsOfUse"
+                android:layout_toRightOf="@id/readOur"
+                android:text="Terms of Use "
+                android:textSize="11dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="22dp"
+                android:textColor="#FFFFFF" />
+            <TextView
+                android:id="@+id/and"
+                android:layout_toRightOf="@id/TermsOfUse"
+                android:text="and "
+                android:textSize="11dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="22dp"
+                android:textColor="#666666" />
+            <Button
+                android:background="@android:color/transparent"
+                android:id="@+id/PrivasyPolicy"
+                android:layout_toRightOf="@id/and"
+                android:text="Privacy Policy!"
+                android:textSize="11dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="22dp"
+                android:textColor="#FFFFFF" />
+            <TextView
+                android:text="c 2013 Sport.net"
+                android:textSize="11dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="85dp"
+                android:layout_marginTop="42dp"
+                android:textColor="#666666"
+                android:layout_marginRight="85dp" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

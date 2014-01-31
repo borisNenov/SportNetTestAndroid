@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/SelectionCell"
+    android:layout_width="67.5dp"
+    android:layout_height="67.5dp">
+    <ImageView
+        android:id="@+id/SportImage"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profilebig" />
+    <ImageView
+        android:id="@+id/Frame"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/redFrame" />
+</RelativeLayout>

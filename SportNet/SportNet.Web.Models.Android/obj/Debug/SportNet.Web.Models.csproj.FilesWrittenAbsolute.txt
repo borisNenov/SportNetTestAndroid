@@ -1,0 +1,4 @@
+/Users/Dancho/dev/Sport.Net/SportNew.DTOs/bin/Debug/SportNet.Web.Models.dll.mdb
+/Users/Dancho/dev/Sport.Net/SportNew.DTOs/bin/Debug/SportNet.Web.Models.dll
+/Users/Dancho/dev/Sport.Net/SportNew.DTOs/obj/Debug/SportNet.Web.Models.dll
+/Users/Dancho/dev/Sport.Net/SportNew.DTOs/obj/Debug/SportNet.Web.Models.dll.mdb

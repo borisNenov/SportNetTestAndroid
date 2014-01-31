@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="250dp"
+    android:padding="8dp">
+    <ImageView
+        android:id="@+id/mainPicture"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/lewandovski" />
+    <ImageView
+        android:id="@+id/Photo"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:src="@drawable/photoBig"
+        android:layout_alignParentRight="true" />
+    <TextView
+        android:id="@+id/NumberOfPhotos"
+        android:layout_width="42dip"
+        android:layout_height="16dip"
+        android:text="18"
+        android:textSize="14dip"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:textStyle="bold" />
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="170dip">
+        <ImageView
+            android:id="@+id/alpha"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ae000000" />
+        <LinearLayout
+            android:id="@+id/container"
+            android:orientation="vertical"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="5dip">
+            <TextView
+                android:id="@+id/mainCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sport Category"
+                android:textSize="14dip"
+                android:textColor="#FF0000"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp" />
+            <TextView
+                android:id="@+id/mainHeading"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Heading"
+                android:textSize="17dip"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

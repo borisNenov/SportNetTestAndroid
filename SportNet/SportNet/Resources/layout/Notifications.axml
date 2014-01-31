@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <include
+        android:id="@+id/include"
+        layout="@layout/ActionBarLayout" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#1a1a1a">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Get Notifications"
+                android:textSize="11sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:id="@+id/MakeProfilePublic"
+                android:layout_marginLeft="30dp" />
+            <Switch
+                android:id="@+id/onOffSwitchGetNotifications"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="ON"
+                android:textOff="OFF"
+                android:layout_toRightOf="@id/MakeProfilePublic"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp" />
+            <ImageView
+                android:id="@+id/SecondDivider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dip"
+                android:src="@drawable/actionBarDivider" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:text="Breaking Stories"
+                android:textSize="11sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:id="@+id/MakeProfilePublic"
+                android:layout_marginLeft="30dp" />
+            <Switch
+                android:id="@+id/onOffSwitchBreakingStories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="ON"
+                android:textOff="OFF"
+                android:layout_toRightOf="@id/MakeProfilePublic"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dp" />
+            <TextView
+                android:text="Get notified about breaking events and news based on sources you read"
+                android:textSize="11sp"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dip"
+                android:textColor="#666666"
+                android:id="@+id/MakeProfilePublic"
+                android:layout_marginLeft="30dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:text="New Sources"
+                android:textSize="11sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="30dp" />
+            <Switch
+                android:id="@+id/onOffSwitchNewSources"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="ON"
+                android:textOff="OFF"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dp" />
+            <TextView
+                android:text="Get notified about new and featured sources in the Sport.net catalog"
+                android:textSize="11sp"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dip"
+                android:textColor="#666666"
+                android:id="@+id/MakeProfilePublic"
+                android:layout_marginLeft="30dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:text="LiveScore Events"
+                android:textSize="11sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="30dp" />
+            <Switch
+                android:id="@+id/onOffSwitchLiveScoreEvents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="ON"
+                android:textOff="OFF"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dp" />
+            <TextView
+                android:text="Get notified about the results of sports or teams you follow"
+                android:textSize="11sp"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dip"
+                android:textColor="#666666"
+                android:id="@+id/MakeProfilePublic"
+                android:layout_marginLeft="30dp" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

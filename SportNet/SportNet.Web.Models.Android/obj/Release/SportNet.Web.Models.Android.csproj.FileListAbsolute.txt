@@ -1,0 +1,10 @@
+C:\Users\Boris\Documents\Projects\SportNet\SportNet.Web.Models.Android\bin\Release\SportNet.Web.Models.Android.dll
+C:\Users\Boris\Documents\Projects\SportNet\SportNet.Web.Models.Android\bin\Release\SportNet.Web.Models.Android.pdb
+C:\Users\Boris\Documents\Projects\SportNet\SportNet.Web.Models.Android\bin\Release\SportNet.Web.Models.Android.apk
+C:\Users\Boris\Documents\Projects\SportNet\SportNet.Web.Models.Android\bin\Release\SportNet.Web.Models.Android-Signed.apk
+C:\Users\Boris\Documents\Projects\SportNet\SportNet.Web.Models.Android\obj\Release\SportNet.Web.Models.Android.dll
+C:\Users\Boris\Documents\Projects\SportNet\SportNet.Web.Models.Android\obj\Release\SportNet.Web.Models.Android.pdb
+C:\Users\Boris\Documents\Projects\SportNet\SportNet.Web.Models.Android\obj\Release\android\bin\SportNet.Web.Models.Android.apk
+C:\Users\Boris\Documents\Projects\SportNet\SportNet.Web.Models.Android\obj\Release\res\values\strings.xml
+C:\Users\Boris\Documents\Projects\SportNet\SportNet.Web.Models.Android\obj\Release\R.cs.flag
+C:\Users\Boris\Documents\Projects\SportNet\SportNet.Web.Models.Android\obj\Release\uploadflags.txt

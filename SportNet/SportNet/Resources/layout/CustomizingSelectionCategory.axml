@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <include
+        android:id="@+id/include"
+        layout="@layout/ActionBarLayout" />
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#1a1a1a">
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Customize Your Selection"
+            android:layout_centerVertical="true"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#1a1a1a">
+        <ListView
+            android:id="@+id/CustomizingCategory"
+            android:layout_width="fill_parent"
+            android:layout_height="400dp"
+            android:cacheColorHint="#1a1a1a"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:divider="@null"
+            android:scrollbars="none" />
+    </RelativeLayout>
+</LinearLayout>

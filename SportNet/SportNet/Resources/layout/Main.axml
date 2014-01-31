@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MainLayout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000">
+    <Button
+        android:id="@+id/CreateAnAccount"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:text="Create An Account"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/buttonlong" />
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Login To SportNet"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:background="@drawable/buttonlongwhite" />
+    <Button
+        android:background="@android:color/transparent"
+        android:id="@+id/MaybeLater"
+        android:layout_toRightOf="@id/readOur"
+        android:text="Maybe Later"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#666666" />
+</LinearLayout>

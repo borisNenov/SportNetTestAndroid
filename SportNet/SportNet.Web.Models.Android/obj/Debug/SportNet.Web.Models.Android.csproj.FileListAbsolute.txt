@@ -1,0 +1,11 @@
+C:\Users\Boris\Documents\Projects\SportNet\SportNet.Web.Models.Android\bin\Debug\SportNet.Web.Models.Android.dll
+C:\Users\Boris\Documents\Projects\SportNet\SportNet.Web.Models.Android\bin\Debug\SportNet.Web.Models.Android.pdb
+C:\Users\Boris\Documents\Projects\SportNet\SportNet.Web.Models.Android\bin\Debug\SportNet.Web.Models.Android.dll.mdb
+C:\Users\Boris\Documents\Projects\SportNet\SportNet.Web.Models.Android\bin\Debug\SportNet.Web.Models.Android.apk
+C:\Users\Boris\Documents\Projects\SportNet\SportNet.Web.Models.Android\bin\Debug\SportNet.Web.Models.Android-Signed.apk
+C:\Users\Boris\Documents\Projects\SportNet\SportNet.Web.Models.Android\obj\Debug\SportNet.Web.Models.Android.dll
+C:\Users\Boris\Documents\Projects\SportNet\SportNet.Web.Models.Android\obj\Debug\SportNet.Web.Models.Android.pdb
+C:\Users\Boris\Documents\Projects\SportNet\SportNet.Web.Models.Android\obj\Debug\android\bin\SportNet.Web.Models.Android.apk
+C:\Users\Boris\Documents\Projects\SportNet\SportNet.Web.Models.Android\obj\Debug\res\values\strings.xml
+C:\Users\Boris\Documents\Projects\SportNet\SportNet.Web.Models.Android\obj\Debug\R.cs.flag
+C:\Users\Boris\Documents\Projects\SportNet\SportNet.Web.Models.Android\obj\Debug\uploadflags.txt

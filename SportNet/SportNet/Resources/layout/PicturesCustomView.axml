@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#1a1a1a"
+    android:padding="8dp">
+    <RelativeLayout
+        android:id="@+id/ImageContainer"
+        android:layout_width="100dp"
+        android:layout_height="100dip"
+        android:layout_alignParentLeft="true">
+        <ImageView
+            android:id="@+id/Image"
+            android:layout_width="100dp"
+            android:layout_height="100dip"
+            android:src="@drawable/SportNet" />
+        <ImageView
+            android:id="@+id/Photo"
+            android:layout_width="21dp"
+            android:layout_height="21dip"
+            android:src="@drawable/photoSmall"
+            android:layout_alignParentRight="true" />
+        <TextView
+            android:id="@+id/NumberOfPhotos"
+            android:layout_width="21dip"
+            android:layout_height="10dip"
+            android:text="18"
+            android:textSize="7dip"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/Text"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:layout_toRightOf="@id/ImageContainer">
+        <TextView
+            android:id="@+id/Text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Footbal"
+            android:textSize="14dip"
+            android:textColor="#FF0000" />
+        <TextView
+            android:id="@+id/Text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mata, Torres and Azpilicueta are celebrating after Spain beat Italy on penalties"
+            android:textColor="#FFFFFF"
+            android:textSize="14dip"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>

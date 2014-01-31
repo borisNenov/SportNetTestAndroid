@@ -1,0 +1,17 @@
+﻿<Properties GitUserInfo="UsingMD">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SportNet\CustomizingSelectionCategoryAdapter.cs">
+    <Files>
+      <File FileName="SportNet\UserCategoryActivity.cs" Line="115" Column="56" />
+      <File FileName="SportNet\NewsActivity.cs" Line="24" Column="21" />
+      <File FileName="SportNet\TodayLiveScoreActivity.cs" Line="1" Column="1" />
+      <File FileName="MonoDroid.UrlImageViewHelper-master\UrlImageViewHelper.cs" Line="269" Column="41" />
+      <File FileName="SportNet\CustomizingSelectionCategoryAdapter.cs" Line="15" Column="42" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SportNet MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" AndroidDeviceId-Debug="emulator-5554" AndroidDeviceId-Release="HT243W112705" />
+</Properties>

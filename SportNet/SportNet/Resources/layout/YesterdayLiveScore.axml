@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/YesterdayLiveScore"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <include
+        android:id="@+id/include"
+        layout="@layout/ActionBarLayout" />
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="70dip"
+        android:background="#1a1a1a">
+        <TextView
+            android:id="@+id/HeadingYesterday"
+            android:text="Football"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp" />
+        <ImageView
+            android:id="@+id/SportIconYesterday"
+            android:src="@drawable/footballIcon"
+            android:layout_width="18dip"
+            android:layout_height="18dip"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="28dp" />
+        <TextView
+            android:id="@+id/HeadingYesterday"
+            android:text="Yesterday, May 31, 2013"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:textSize="13dp"
+            android:textColor="#333333"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="42dp" />
+        <ImageButton
+            android:id="@+id/dropDown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/dropDown" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#1a1a1a"
+        android:layout_marginBottom="30px">
+        <ListView
+            android:id="@+id/ListLiveScoreYesterday"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#1a1a1a"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:scrollbars="none" />
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="175dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="100dip"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+            <ListView
+                android:id="@+id/MenuList"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:cacheColorHint="#FFFFFF"
+                android:divider="@null"
+                android:scrollbars="none" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

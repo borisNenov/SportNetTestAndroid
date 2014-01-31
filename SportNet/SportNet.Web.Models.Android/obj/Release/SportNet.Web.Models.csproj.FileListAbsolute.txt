@@ -1,0 +1,4 @@
+C:\Users\Boris\Desktop\AndroidApplicationsSportNet\SportNew.DTOs\bin\Release\SportNet.Web.Models.dll
+C:\Users\Boris\Desktop\AndroidApplicationsSportNet\SportNew.DTOs\bin\Release\SportNet.Web.Models.pdb
+C:\Users\Boris\Desktop\AndroidApplicationsSportNet\SportNew.DTOs\obj\Release\SportNet.Web.Models.dll
+C:\Users\Boris\Desktop\AndroidApplicationsSportNet\SportNew.DTOs\obj\Release\SportNet.Web.Models.pdb
